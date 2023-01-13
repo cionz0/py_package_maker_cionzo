@@ -14,6 +14,6 @@ __version__ = "0.0.1"
 
 
 def main(args: Optional[List[str]] = None) -> int:
-
+    print("__main__.py[17]")
     print(args)
     return 0
