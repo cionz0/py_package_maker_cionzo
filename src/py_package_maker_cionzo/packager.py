@@ -11,7 +11,7 @@ import re
 from collections import namedtuple
 from pathlib import Path
 
-from .license import license_manager
+from license import license_manager
 from .pyprojecttoml import tomler
 
 User = namedtuple('User', "name email")
